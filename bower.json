@@ -1,14 +1,13 @@
 {
-  "name": "stub",
+  "name": "x-tag-mixin-input",
   "description": "",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
-    "web-components",    
+    "web-components",
     "x-tag"
   ],
   "main": [
-    "src/main.js",
-    "src/main.css"
+    "src/main.js"
   ],
   "dependencies": {
     "x-tag-core": "*"
