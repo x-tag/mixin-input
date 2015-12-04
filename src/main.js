@@ -19,9 +19,11 @@
         attribute: { boolean: true, property: 'input' }
       },
       value: {
-        attribute: { property: 'input' },
         get: function(){
           return this.xtag.input.value;
+        },
+        set: function(value){
+          this.xtag.input.value = value;
         }
       },
       validate: {
